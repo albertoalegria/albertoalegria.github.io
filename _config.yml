@@ -1,5 +1,5 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: alegria.dev
+subtitle: Hello, I'm Daniel Alberto Alegría Sánchez
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
@@ -10,50 +10,52 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     - text: Home
       url: /
-    - text: About
-      url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
     - text: Contact
       url : /contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
+author_logo: profile.jpg
+author: Alberto Alegría
+author_bio: I'm a Full Stack Developer interested in Cloud Computing, Microservices, Artificial Intelligence and Evolutionary Computing.
+author_email: "alegria.d.alberto@gmail.com"
+author_location: Mexico City
+author_website_url: "https://alegria.dev"
 typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: IBM
+              date: Mar 2019 - Present
+              company_logo: ibm-logo.jpg
+              company_url: https://www.ibm.com/
+              designation: Full Stack Developer
+              description: Developed microservices and administrated servers for banking and insurance systems
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Accenture
+              date: Oct 2017 - Mar 2019
+              company_logo: accenture-logo.jpg
+              company_url: https://www.accenture.com/
+              designation: Full Stack Developer
+              description: Designed and developed microservices for banking systems
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: ittg-logo.jpg
+                college_name: Instituto Tecnológico de Tuxtla Gutiérrez
+                college_url: https://www.tuxtla.tecnm.mx/
+                college_degree: BE Computer Systems
+                description: Bachelor of Engineering in Computer Systems
+                visibility: true
+              - college_logo: iimas-logo.jpeg
+                college_name: Instituto de Investigaciones en Matemáticas Aplicadas y Sistemas
+                college_url: https://www.iimas.unam.mx/
+                college_degree: Summer Internship
+                description: Genetic Algorithm framework for University timetable generation
                 visibility: true
 
 # Projects
@@ -70,16 +72,8 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+github_username:  albertoalegria
+linkedin_username: alegriaalberto
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
@@ -87,14 +81,14 @@ flickr_username: johndoe
 hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+wakatime_username: AlbertoAlegria
 
 # mailchimp embedded form url (newsletter):
 mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+formspree_endpoint: mwkaobby
 
 # releases - widget can be (sidebar, modal or embed)
 olvy_organization: devlopr
@@ -108,7 +102,7 @@ permalink: pretty
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
-show_author_project_details: true
+show_author_project_details: false
 
 # pagination of posts
 paginate: 4
