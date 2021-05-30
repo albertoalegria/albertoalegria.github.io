@@ -30,7 +30,7 @@ typewrite-text: devlopr is a jekyll framework built for developers. You can edit
 author_work_experiences:
             - company_name: IBM
               date: Mar 2019 - Present
-              company_logo: ibm-logo.jpg
+              company_logo: ibm.jpg
               company_url: https://www.ibm.com/
               designation: Full Stack Developer
               description: Developed microservices and administrated servers for banking and insurance systems
