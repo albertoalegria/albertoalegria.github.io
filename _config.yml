@@ -18,7 +18,7 @@ urls:
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
-author_logo: profile.jpg
+author_logo: profile.png
 author: Alberto Alegría
 author_bio: I'm a Full Stack Developer interested in Cloud Computing, Microservices, Artificial Intelligence and Evolutionary Computing.
 author_email: "alegria.d.alberto@gmail.com"
